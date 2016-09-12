@@ -5,4 +5,10 @@ class ApplicationController < ActionController::Base
     print("test")
     render text: "hello, world!"
   end
+
+  def goodbye
+    print("goodbye")
+    render text: "goodbye, world!"
+  end
+
 end
