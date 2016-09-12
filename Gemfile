@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :production do
-  gem 'pg',             '0.17.1'
+  gem 'pg',             '~> 0.18'
   gem 'rails_12factor', '0.0.2'
 end
 
